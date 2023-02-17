@@ -12,7 +12,7 @@ def fibonacci(x, n):
     second_fib_number = first_fib_number + fib_list[-1]
 
     if n == 0:
-        return 'Pleae select a value of "n" greater than zero.'
+        return 'Please select a value of "n" greater than zero.'
 
     if n == 1:
         return [first_fib_number]
